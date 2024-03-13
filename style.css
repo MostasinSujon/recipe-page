@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E5D8;
+    color: #706e6d;
+    font-size: 16px;
+    font-family:"outfit", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: "Young Serif", serif;
+    color: #84483D;
+    margin-bottom: 20px;
+}
+
+.main {
+    width: 50vw;
+    margin: 0;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.main img {
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.main p {
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+
+.preparation {
+    background-color: #FFF7FC;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.preparation h3 {
+    color: #8d4567;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.preparation ul {
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+.preparation ul li {
+    padding-left: 20px;
+}
+
+
+.preparation ul li b {
+    color: #665C5B;
+}
+
+.ingredient h2 {
+    margin-top: 30px;
+}
+
+.ingredient ul {
+    padding-left: 25px;
+}
+
+.ingredient ul li {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+hr.hr {
+    margin: 20px 0;
+    width: 100%;
+    align-items: center;
+    border: 1px solid rgb(230, 225, 225);
+}
+
+.instruction ol li {
+    text-align: justify;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.instruction ol li::marker {
+    color: #84483D;
+    font-weight: bolder;
+}
+
+.instruction ol li b {
+    color: #5E5B56;
+}
+
+.nutrition p {
+    margin-left: 0px;
+}
+
+table {
+    width: 100%;
+    padding: 0 100px;
+}
+
+table tr,
+td {
+    border-bottom: 1px solid rgba(182, 176, 176, 0.852);
+    text-align: start;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        width: 100vw;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .main img {
+        width: 70vw;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .preparation, .ingredient, .instruction, .nutrition {
+        margin: 0 10px;
+    }
+
+    .preparation ul {
+        margin-left: 0;
+    }
+
+    .preparation ul li {
+    padding-left: 10px;
+    }
+
+    .instruction ol {
+        margin-left: 20px;
+    }
+
+    .instruction ol li {
+        text-align: justify;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 100vw;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .main img {
+        width: 100vw;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+
+        
+    .preparation,
+    .ingredient,
+    .instruction,
+    .nutrition {
+        margin: 0 10px;
+    }
+
+    .preparation ul {
+        margin-left: 0;
+    }
+
+    .preparation ul li {
+        padding-left: 10px;
+    }
+
+    .instruction ol {
+        margin-left: 20px;
+    }
+
+    .instruction ol li {
+        text-align: justify;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .main {
+        width: 80vw;
+        margin: auto;
+        justify-content: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .main img {
+        width: 74vw;
+        margin-bottom: 20px;
+    }
+    .instruction ol li {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        width: 70vw;
+        margin: auto;
+        background-color: white;
+        padding: 30px;
+    }
+    .main img {
+        width: 65vw;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        width: 60vw;
+        margin: auto;
+        background-color: white;
+        padding: 30px;
+    }
+
+    .main img {
+        width: 55vw;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        width: 60vw;
+        margin: auto;
+        background-color: white;
+        padding: 40px;
+    }
+
+    .main img {
+        width: 55vw;
+        margin-bottom: 30px;
+    }
+    
+    .ingredient ul {
+        padding-left: 40px;
+    }
+
+    .instruction ol {
+       padding-left: 0;
+       margin-left: 0;
+    }
+}
